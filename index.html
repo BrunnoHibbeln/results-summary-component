@@ -6,6 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
   
   <title>Results summary component</title>
 
@@ -13,28 +16,44 @@
 <body>
 
   <div>
-  Your Result
-  76
-  of 100
+    <div class="result-box">
+      <span class="result-title">Your Result</span>
+      <div class="circle">
+        76 
+        <span>of 100</span>
+      </div>
+      <span>Great</span>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="summary-box">
+      <span>Summary</span>
+      
+      <div>
+        <img src="assets/images/icon-reaction.svg" alt="Reaction Icon">
+        <span>Reaction</span>
+        <span>80</span> <p>/ 100</p>
+      </div>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+      <div>
+        <img src="assets/images/icon-memory.svg" alt="Memory Icon">
+        <span>Memory</span>
+        <span>92</span> <p>/ 100</p>
+      </div>
 
-  Reaction
-  80 / 100
+      <div>
+        <img src="assets/images/icon-verbal.svg" alt="Verbal Icon">
+        <span>Verbal</span>
+        <span>61</span> <p>/ 100</p>
+      </div>
 
-  Memory
-  92 / 100
+      <div>
+        <img src="assets/images/icon-visual.svg" alt="Visual Icon">
+        <span>Visual</span>
+        <span>72</span> <p>/ 100</p>
+      </div>
 
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
+      <button>Continue</button>
+    </div>
   </div>
 </body>
 </html>
