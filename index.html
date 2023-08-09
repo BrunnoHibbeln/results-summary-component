@@ -1,59 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
-  
-  <title>Results summary component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
-
-  <div>
-    <div class="result-box">
-      <span class="result-title">Your Result</span>
-      <div class="circle">
-        76 
-        <span>of 100</span>
+    <title>Results summary component</title>
+  </head>
+  <body>
+    <div>
+      <div class="result-box">
+        <span class="result-title">Your Result</span>
+        <div class="circle">
+          <p>76</p>
+          <span>of 100</span>
+        </div>
+        <span class="result-second-title">Great</span>
+        <p class="result-paragraph">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
       </div>
-      <span>Great</span>
-      <p>You scored higher than 65% of the people who have taken these tests.</p>
+      <div class="summary-box">
+        <span class="summary-title">Summary</span>
+
+        <div>
+          <img src="assets/images/icon-reaction.svg" alt="Reaction Icon" />
+          <h3 class="summary-second-title" style="color: hsl(0, 100%, 67%)">
+            Reaction
+          </h3>
+          <p>80 <span>/ 100</span></p>
+        </div>
+
+        <div>
+          <img src="assets/images/icon-memory.svg" alt="Memory Icon" />
+          <h3 class="summary-second-title" style="color: hsl(39, 100%, 56%)">
+            Memory
+          </h3>
+          <p>92 <span>/ 100</span></p>
+        </div>
+
+        <div>
+          <img src="assets/images/icon-verbal.svg" alt="Verbal Icon" />
+          <h3 class="summary-second-title" style="color: hsl(166, 100%, 37%)">
+            Verbal
+          </h3>
+          <p>61 <span>/ 100</span></p>
+        </div>
+
+        <div>
+          <img src="assets/images/icon-visual.svg" alt="Visual Icon" />
+          <h3 class="summary-second-title" style="color: hsl(234, 85%, 45%)">
+            Visual
+          </h3>
+          <p>72 <span>/ 100</span></p>
+        </div>
+
+        <div class="button-box">
+          <button>Continue</button>
+        </div>
+      </div>
     </div>
-    <div class="summary-box">
-      <span>Summary</span>
-      
-      <div>
-        <img src="assets/images/icon-reaction.svg" alt="Reaction Icon">
-        <span>Reaction</span>
-        <span>80</span> <p>/ 100</p>
-      </div>
-
-      <div>
-        <img src="assets/images/icon-memory.svg" alt="Memory Icon">
-        <span>Memory</span>
-        <span>92</span> <p>/ 100</p>
-      </div>
-
-      <div>
-        <img src="assets/images/icon-verbal.svg" alt="Verbal Icon">
-        <span>Verbal</span>
-        <span>61</span> <p>/ 100</p>
-      </div>
-
-      <div>
-        <img src="assets/images/icon-visual.svg" alt="Visual Icon">
-        <span>Visual</span>
-        <span>72</span> <p>/ 100</p>
-      </div>
-
-      <button>Continue</button>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
